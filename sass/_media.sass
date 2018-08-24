@@ -1,0 +1,411 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1500px
++media-breakpoint-up(xxl)
+	header
+		.slider
+			.slide
+				height: 945px
+
+// 1200px
++media-breakpoint-down(lg)
+	.s-price
+		.price-wrap-1
+			position: static
+			width: 100%
+
+	.s-price 
+		.price-wrap-2
+			.top:after
+				bottom: 235px
+
+	.s-takem
+		.t-item-3
+			.img-wrappp
+				left: 193px
+
+	.s-finance .form-wrap .form-left .sum p, .s-finance .form-wrap .form-right .sum p
+		width: 100%
+	.s-finance
+		.form-wrap
+			.form-left
+				.sum
+					.number
+					.ranger
+						.range-labels
+							li
+								width: 72.25px
+						p
+							right: -110px
+					.ranger
+						.range
+							width: 380px
+
+	.s-finance
+		.form-wrap
+			.form-right
+				.sum
+					.number
+						p
+							right: -110px
+					.ranger
+						.range
+							width: 380px	
+						.range-labels1
+							li
+								width: 117.25px
+			.form-wrapp
+				form
+					button
+						margin-left: 40px
+					.person
+						p
+							font-size: 12px
+
+	.s-feeds
+		.owl-item
+			.sl-right
+				.img-wrap
+					margin-left: 50px
+
+
+// ≥992px
++media-breakpoint-down(md)
+	header
+		height: 892px
+		.slider
+			.slide
+				height: 892px
+		.header-content
+			h1
+				font-size: 40px
+				line-height: 45px
+				margin-top: 80px
+				margin-right: 245px
+				margin-bottom: 50px
+			form
+				input
+					display: block
+					width: 264px
+					margin: 15px 0
+			.phone
+				margin-top: 45px
+
+	.s-faktor
+		.write
+			display: none
+		p
+			font-size: 35px
+			line-height: 42px
+
+	.s-need
+		h2
+			font-size: 40px
+
+	.s-solution
+		.solution-cn
+			.top
+				h3
+					font-size: 35px
+				.text
+					margin-left: 0
+					margin-top: 0
+
+	.s-price
+		h2
+			font-size: 40px
+			line-height: 50px
+
+	.s-takem
+		.t-item-1
+			text-align: center
+			.img-wrap
+				display: none
+		.t-item-2, .t-item-3, .t-item-4, .t-item-5
+			margin-top: 30px
+			.img-wrapp, .img-wrappp
+				display: none
+
+	.s-finance
+		.toph2
+			h2
+				font-size: 40px
+				line-height: 50px
+			.img-wrap
+				top: 30px
+				left: 290px
+
+	.s-finance
+		.form-wrap
+			.form-left
+				.sum
+					p
+						width: 50%
+
+	.s-finance
+		.form-wrap
+			.form-right
+				margin-top: 25px
+				.sum
+					p
+						width: 50%
+					.number
+						p
+							right: -25px
+					.ranger
+						.range
+							width: 100%
+			.form-left
+				.sum
+					.ranger
+						.range
+							width: 100%
+						.range-labels
+							li
+								width: 108.25px
+			.form-wrapp 
+				form
+					input
+						width: 48%
+					button
+						margin-left: 0
+						width: 100%
+					.person
+						p
+							text-align: center
+
+	.s-feeds
+		padding: 15px 10px
+		background-position: top center
+		h2
+			color: #00B3E1
+		.owl-item
+			.sl-right
+				.img-wrap
+					margin-left: 0
+					max-width: 100%
+			.sl-left
+				top: 70px
+
+// ≥768px
++media-breakpoint-down(sm)
+	header
+		.header-content
+			padding: 45px 0
+			h1
+				font-size: 26px
+				line-height: 35px
+				margin-top: 50px
+
+	.toggle-mnu
+		margin-top: 5px
+
+	.s-solution
+		.solution-cn
+			h3
+				font-size: 26px
+			.top
+				h3
+					font-size: 26px
+			.adv-item
+				max-width: 75%
+
+	.s-price
+		.price-wrap-1
+			.sum
+				p
+					width: 100%
+				.number
+					display: block
+					margin: 0 auto
+					p
+						right: -110px
+				.number1
+					p
+						right: -55px
+
+	.ranger
+		.range
+			width: 100%
+
+	.range-labels
+		li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6)
+			visibility: hidden
+
+	.s-finance
+		.form-wrap
+			.form-left, .form-right
+				.sum
+					p
+						width: 100%
+					.number
+						p
+							right: -107px
+			.form-wrapp
+				form
+					input
+						width: 100%
+						margin: 15px 0
+
+	.s-feeds
+		.owl-item
+			.sl-left
+				top: 25px
+
+	.s-partners
+		h2
+			font-size: 40px
+			line-height: 45px
+		.owl-carousel
+			.owl-nav
+				button
+					.fa-arrow-circle-right
+						right: 35%
+
+	.s-about
+		h2
+			font-size: 40px
+			margin-top: 15px
+		.owl-wrap
+			padding: 20px
+			.slider-news
+				.owl-nav
+					button
+						.fa-arrow-circle-left
+							right: 70%
+							top: 60px
+						.fa-arrow-circle-right
+							right: 25%
+							top: 60px
+
+
+
+
+// ≥576px
++media-breakpoint-down(xs)
+	header
+		.header-content
+			h1
+				margin-right: 0
+				width: 80%
+			.phone
+				a
+					font-size: 35px
+
+	.s-faktor
+		padding: 60px 20px
+		p
+			font-size: 25px
+			line-height: 35px
+			&:before
+				top: -80px
+			&:after
+				bottom: -80px
+
+	.s-solution
+		h2
+			font-size: 40px
+		button
+			padding: 8px 10px
+
+	.s-need
+		h2
+			font-size: 35px
+		.item-wrap
+			margin-bottom: 25px
+
+	.s-price
+		h2
+			font-size: 30px
+		.price-wrap-2
+			padding: 10px
+			h3
+				top: -115px
+				font-size: 26px
+				line-height: 25px
+				left: 10px
+			.top:after, .bottom:after
+				width: 0
+			.comission
+				p
+					margin: 0
+
+	.s-takem
+		padding-top: 25px
+		.t-item-1
+			h2
+				font-size: 30px
+
+	.s-finance
+		padding: 50px 0
+		overflow: hidden
+		.toph2
+			h2
+				font-size: 35px
+				line-height: 45px
+				text-align: center
+				width: auto
+			.img-wrap
+				display: none
+		.form-wrap
+			padding: 35px 20px
+			.form-wrapp
+				form
+					input
+						width: 100%
+
+	.s-feeds
+		.owl-item
+			padding: 15px
+			.sl-right
+				display: block
+				text-align: center
+				width: 100%
+				max-width: 100%
+				p
+					margin-bottom: 0
+				.img-wrap
+					img
+						width: 169px
+						height: 169px
+						margin: 0 auto
+			.sl-left
+				position: static
+				width: 100%
+				padding: 0
+				margin-top: 25px
+
+	.s-partners
+		h2
+			font-size: 35px
+		.owl-carousel
+			.owl-nav
+				button
+					.fa-arrow-circle-right
+						right: 28%
+			
+
+
+
+	
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
+
+
+	
